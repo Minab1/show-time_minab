@@ -1,0 +1,10 @@
+basic.forever(function () {
+    music.playMelody("C5 E F A C5 E F A ", 120)
+    basic.showIcon(IconNames.Happy)
+    basic.clearScreen()
+    basic.showIcon(IconNames.Sad)
+    basic.clearScreen()
+    basic.showIcon(IconNames.Asleep)
+    basic.clearScreen()
+    basic.showIcon(IconNames.Surprised)
+})
